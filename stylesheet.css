@@ -1,0 +1,55 @@
+.header {
+    background-color:#FFA07A;
+    height: 65px;
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+    top: 0;
+}
+
+li {
+    list-style-type: none;
+    /*margin jarak dalam li*/
+    margin: 0 2vw;
+    font-size: 3vh;
+}
+
+a {
+    /*agar tidak muncul garis biru di bawah yang mengandung link*/
+    text-decoration: none;
+}
+
+nav {
+    padding-top: 20px;
+    width: 100vw;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    /*flex agar horizontal dan float right lempar kanan*/
+    display: flex;
+    float: right;
+}
+
+li a {
+    display: block;
+}
+
+li a:hover {
+    background-color: tomato;
+    transition: all 1s;
+}
+
+.menu-icon {
+    color: white;
+    float: right;
+    font-size: 45px;
+    padding-right: 30px;
+    display: block;
+}
+
+span.menu-icon {
+    float: right;
+    display: none;
+}

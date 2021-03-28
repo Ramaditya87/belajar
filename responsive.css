@@ -1,0 +1,22 @@
+@media all and (max-width: 1000px) {
+
+  
+}
+
+@media all and (max-width: 670px) {
+
+    nav{
+        display: none;
+      }
+    .menu-icon {
+        color: whitesmoke;
+        float: right;
+        font-size: auto;
+        display: block;
+        padding: 6vw;
+        }
+    
+     span.menu-icon {
+          display: block;
+        }
+      }
